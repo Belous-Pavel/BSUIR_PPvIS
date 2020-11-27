@@ -12,7 +12,7 @@ public class Main {
         String key = new String();
         String info = new String();
         String separator = File.separator;
-        String filePath = "C:" + separator + "Users" + separator + "nikit" + separator + "OneDrive" + separator + "Desktop" + separator + "Slovar.txt";
+        String filePath = "C:" + separator + "Users" + separator + "Pavel" + separator + "OneDrive" + separator + "Desktop" + separator + "Slovar.txt";
         Scanner scanner = new Scanner(System.in);
 
         exit:
@@ -49,6 +49,7 @@ public class Main {
                     System.out.println(bin.size());
                     break;
                 case 7:
+                    
                     System.out.println("You read document by path " + filePath);
                     bin.read(filePath);
                     break;

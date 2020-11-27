@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
  */
 public class BinaryTreeTest {
     private final String SEPARATOR = File.separator;
-    private final String PATH = "C:" + SEPARATOR + "Users" + SEPARATOR + "nikit" + SEPARATOR + "OneDrive" + SEPARATOR + "Desktop" + SEPARATOR + "test.txt";
+    private final String PATH = "C:" + SEPARATOR + "Users" + SEPARATOR + "Pavel" + SEPARATOR + "OneDrive" + SEPARATOR + "Desktop" + SEPARATOR + "test.txt";
 
     /**
      * Checks the adding to the right subtree
